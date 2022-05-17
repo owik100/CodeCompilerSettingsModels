@@ -6,6 +6,7 @@
         public int MaxThreads { get; set; }
         public int InternalBufferSize { get; set; }
         public bool SendMessagesToManager { get; set; }
+        public bool SendMessagesToManagerAboutBeingAlive { get; set; }
         public int SendMessagesPort { get; set; }
     }
 }
