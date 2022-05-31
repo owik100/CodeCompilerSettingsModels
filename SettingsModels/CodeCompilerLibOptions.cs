@@ -10,6 +10,7 @@ namespace CodeCompilerSettingsModels
     {
         public string InputPath { get; set; }
         public string OutputPath { get; set; }
-        public bool BuildToConsoleApp { get; set; }
+        public string NetVersionToCompile { get; set; }
+        public string BuildType { get; set; }
     }
 }
